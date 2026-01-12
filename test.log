@@ -1,0 +1,32 @@
+
+> prism-vote-ui@0.1.0 tauri
+> tauri dev
+
+     Running BeforeDevCommand (`npm run dev`)
+
+> prism-vote-ui@0.1.0 dev
+> vite
+
+Re-optimizing dependencies because vite config has changed
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m490[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m1420[22m/[39m
+        Info Watching c:\Claude\src-tauri for changes...
+        Info Watching c:\Claude\src-tauri for changes...
+[1m[92m   Compiling[0m prism-vote-app v0.1.0 (C:\Claude\src-tauri)
+[1m[96m    Building[0m [=======================> ] 583/584: prism...                                                            [1m[92m    Finished[0m `dev` profile [unoptimized + debuginfo] target(s) in 30.78s
+P2P node started on /ip4/0.0.0.0/tcp/0
+Peer ID: 12D3KooWQPtxCLBo1tvoHA2ULriUXDNSxcVCeFTqtEmn6TCEuEHp
+🔗 Connecting to bootstrap node: /ip4/162.43.75.151/tcp/4001/p2p/12D3KooWEDyAUWfAegnWFbbFMW2Am8EypBUKJAiNnJf6R3fgPnPa
+✅ Dialed bootstrap node: /ip4/162.43.75.151/tcp/4001/p2p/12D3KooWEDyAUWfAegnWFbbFMW2Am8EypBUKJAiNnJf6R3fgPnPa
+📍 Added bootstrap node to Kademlia DHT: 12D3KooWEDyAUWfAegnWFbbFMW2Am8EypBUKJAiNnJf6R3fgPnPa
+🚀 Kademlia bootstrap initiated
+Subscribed to topic: prism-votes
+🗺️  Kademlia routing updated for peer: 12D3KooWEDyAUWfAegnWFbbFMW2Am8EypBUKJAiNnJf6R3fgPnPa
+Connection established with: 12D3KooWEDyAUWfAegnWFbbFMW2Am8EypBUKJAiNnJf6R3fgPnPa
+📤 Sent identify info to peer: 12D3KooWEDyAUWfAegnWFbbFMW2Am8EypBUKJAiNnJf6R3fgPnPa
+🤝 Identified peer: 12D3KooWEDyAUWfAegnWFbbFMW2Am8EypBUKJAiNnJf6R3fgPnPa (Agent: rust-libp2p/0.44.2)
+🗺️  Kademlia routing updated for peer: 12D3KooWEDyAUWfAegnWFbbFMW2Am8EypBUKJAiNnJf6R3fgPnPa
+👥 Peer 12D3KooWEDyAUWfAegnWFbbFMW2Am8EypBUKJAiNnJf6R3fgPnPa subscribed to TopicHash { hash: "prism-votes" }
+✅ Bootstrap successful with peer: 12D3KooWQPtxCLBo1tvoHA2ULriUXDNSxcVCeFTqtEmn6TCEuEHp (0 remaining)

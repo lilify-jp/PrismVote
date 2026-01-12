@@ -1,0 +1,51 @@
+[workspace]
+members = ["src-tauri"]
+exclude = ["bootstrap-node"]
+resolver = "2"
+
+[package]
+name = "prism-vote"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A fully decentralized P2P voting system with privacy guarantees"
+
+[lib]
+name = "prism_vote"
+path = "src/lib.rs"
+
+[dependencies]
+# 暗号
+rsa = { version = "0.9", features = ["serde"] }
+sha2 = { version = "0.10", features = ["oid"] }
+rand = "0.8"
+aes-gcm = "0.10"
+num-bigint = "0.4"
+num-traits = "0.2"
+
+# シリアライゼーション
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# 日時
+chrono = { version = "0.4", features = ["serde"] }
+
+# UUID
+uuid = { version = "1.6", features = ["v4", "serde"] }
+
+# 非同期
+tokio = { version = "1.35", features = ["full"] }
+
+# P2Pネットワーク
+libp2p = { version = "0.53", features = ["tcp", "noise", "yamux", "gossipsub", "kad", "identify", "macros", "mdns", "tokio"] }
+futures = "0.3"
+
+# ログ
+log = "0.4"
+env_logger = "0.11"
+
+# エラーハンドリング
+thiserror = "1.0"
+
+[dev-dependencies]
+tokio-test = "0.4"
